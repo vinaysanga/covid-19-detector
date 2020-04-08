@@ -11,10 +11,11 @@ Kernel inspired from : [Coronavirus disease 2019 (COVID-19) X-Ray Scanner](https
 ```
 pip3 install -r requirements.txt
 ```
-2. Next, run the project using
+2. Download 'export.pkl' file using instructions from '.\models\instructions.txt'.
+3. Run the project using
 ```
 python app.py
 ```
-3. Click to link shown in terminal to open it into your web browser.
+4. Click to link shown in terminal to open it into your web browser.
 
 Fin..
