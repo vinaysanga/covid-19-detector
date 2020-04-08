@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <h1 class="display-4">COVID-19 Analyzer Results :</h1>
+    <hr class="my-4">
+    <span class="h4">Image: </span><br>
+    <img src="{{image}}" alt="analyzed image"
+    class = "shadow rounded" style="max-width: 400px !important; max-height: auto !important"><br>
+    <br><span class="h4">Result:</span>
+    {% if pred_class == 'covid' %}
+    <div class="alert alert-danger" role="alert">
+        Covid Positive Case
+    </div>
+    {% else %}
+    <div class="alert alert-success" role="alert">
+        Covid Negative Case
+    </div>
+    {% endif %}
+</div>
+{% endblock content %}
+

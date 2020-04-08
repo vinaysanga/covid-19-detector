@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="display-3">Welcome to COVID-19 Detector !</h1>
+    
+    <p class="lead">Hi there !!<br>You might have noticed that 'Coronavirus' is spreading like nothing before and we are anxious that is there some way to detect it quickly? We heard you and have worked out to produce something for you. This web site helps in detecting the presence of COVID-19 using Posteroanterior(PA) X-ray images.
+        <hr class="my-4"><span class="h1">How does this thing work ?</span><br>
+        <p class = "lead">On the front, it may look like a naiive HTML webpage but behind the scenes there is a powerful Deep Neural Network based Classifier which analyzes the image uploaded by the user and checks for the possibility of COVID-19 infection. Everything happens in seconds and the results are almost instant.
+            <br></p>    
+        </p>
+        <p class="lead">Here are the steps : <br>
+        <br><span class="h4">Step 1:</span> Upload the X-ray image by clicking on 'Upload File'<br>
+        <img src="static/Step1.png" alt="Unable to load image" style="max-width: 60% !important; max-height: auto !important" class = "shadow rounded">
+        <br><br><span class="h4">Step 2:</span> Click on 'Analyze' button and wait for the analysis<br>
+        <img src="static/Step2.png" alt="Unable to load image" style="max-width: 60% !important; max-height: auto !important" class = "shadow rounded">
+        <br><br><span class="h4">Step 3:</span> Your result will be displayed on the screen<br> 
+        <img src="static/Step3.png" alt="Unable to load image" style="max-width: 60% !important; max-height: auto !important" class = "shadow rounded">
+        <br><br><a href ="{{url_for('upload')}}" class="btn btn-success btn-lg" >Let's Go !</a>
+        </p>
+    </p>
+    
+</div>
+{% endblock %}
