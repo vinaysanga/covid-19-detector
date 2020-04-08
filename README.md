@@ -1,4 +1,4 @@
-# covid-19-detector 
+# covid-19-detector using X-rays
 
 This website demonstrates the concept of detecting covid-19 infection from the Posteroanterior(PA) X-rays. It uses Resnet-50 for Classification of the images.
 
