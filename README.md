@@ -7,11 +7,16 @@ Dataset used : [covid-chestxray-dataset](https://github.com/ieee8023/covid-chest
 Kernel inspired from : [Coronavirus disease 2019 (COVID-19) X-Ray Scanner](https://github.com/ajsanjoaquin/COVID-19-Scanner)
 
 ## Steps to run:
-1. In the terminal cd to the directory and then run, 
+1. Clone or download the repo and then cd to the folder.
+```
+git clone https://github.com/vinaysanga/covid-19-detector-using-x-rays.git
+cd covid-19-detector-using-x-rays
+```
+2. Install the required packages using, 
 ```
 pip3 install -r requirements.txt
 ```
-2. Download ```'export.pkl'``` file by following instructions from ```'/models/instructions.txt'```.
+3. Download ```'export.pkl'``` file by following instructions from ```'/models/instructions.txt'```.
 3. Run the project using
 ```
 python3 app.py
