@@ -1,2 +1,2 @@
 1. Download the 'export.pkl' file from "https://drive.google.com/open?id=1ZTKTHOf-fsjQtMg9FwoBVhyTrqA-HOkz"
-2. Paste the file in this folder i.e. \models folder.
+2. Paste the file in this folder i.e. /models folder.
