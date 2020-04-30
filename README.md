@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 2. Download ```'export.pkl'``` file by following instructions from ```'/models/instructions.txt'```.
 3. Run the project using
 ```
-python app.py
+python3 app.py
 ```
 4. Click to link shown in terminal to open it into your web browser.
 
