@@ -4,8 +4,6 @@ This website demonstrates the concept of detecting covid-19 infection from the P
 
 Dataset used : [covid-chestxray-dataset](https://github.com/ieee8023/covid-chestxray-dataset)
 
-Kernel inspired from : [Coronavirus disease 2019 (COVID-19) X-Ray Scanner](https://github.com/ajsanjoaquin/COVID-19-Scanner)
-
 ## Steps to run:
 1. Clone or download the repo and then cd to the folder.
 ```
